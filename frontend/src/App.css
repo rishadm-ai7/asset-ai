@@ -1,0 +1,39 @@
+App {
+  text-align: center;
+}
+
+.chat-history {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.message.User {
+  text-align: left;
+}
+
+.message.Chatbot {
+  text-align: right;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
